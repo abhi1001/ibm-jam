@@ -1,6 +1,6 @@
  applications:
  - name: ibm-jam
-     path: ./dist
+     path: ./
      buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
      random-route: true
      memory: 256M
