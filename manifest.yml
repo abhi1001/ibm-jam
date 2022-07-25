@@ -1,5 +1,5 @@
 applications:
- - name: ibm-jam
+    name: ibm-jam
     path: ./
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     random-route: true
