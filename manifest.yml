@@ -1,8 +1,3 @@
-applications:
-    name: ibm-jam
-    path: ./
-    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-    random-route: true
-    memory: 256M
-    env:
-    FORCE_HTTPS: true
+applications: 
+  - 
+    name: "vue-tutorial path:./dist buildpack:https://github.com/cloudfoundry/staticfile-buildpack.git random-route:true CF_STARTUP_TIMEOUT:10 memory:256M env:FORCE_HTTPS:true"
