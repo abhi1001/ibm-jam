@@ -1,3 +1,4 @@
 applications: 
   - 
-    name: "vue-tutorial path:./dist buildpack:https://github.com/cloudfoundry/staticfile-buildpack.git random-route:true CF_STARTUP_TIMEOUT:10 memory:256M env:FORCE_HTTPS:true"
+    name: "ibm-jam path:./dist buildpack:https://github.com/cloudfoundry/staticfile-buildpack.git random-route:true CF_STARTUP_TIMEOUT:10 memory:256M env:FORCE_HTTPS:true"
+    command: "npm run serve"
